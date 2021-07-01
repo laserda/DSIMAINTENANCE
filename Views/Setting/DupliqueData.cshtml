@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Duplique data";
+}
+
+    <h2>
+        @ViewBag.Message
+    </h2>
+    <div class="row">
+        <form asp-controller="Setting" asp-action="DupliqueData" asp-anti-forgery="true" method="post">
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Duplique les données</button>
+            </div>
+        </form>
+    </div>
+
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}

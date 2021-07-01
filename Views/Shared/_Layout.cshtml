@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DSIAppMaintenance</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DIRECTSOFT</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Setting" asp-action="Maj">Update database</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Setting" asp-action="GenCodeEtatAuto">Build report code auto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Setting" asp-action="ReplaceHhml">Html</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Setting" asp-action="DupliqueData">Dupliquer les données</a>
+                        </li>
+                        <li class="nav-item">
+                            <span id="icone" class="fa fa-folder-o"></span>
+                            <a href="#menu" data-toggle="collapse" class="nav-link text-dark"> Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <span id="icone" class="fa fa-folder-o"></span>
+                            <a href="#menu2" data-toggle="collapse" class="nav-link text-dark"> Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <span id="icone" class="fa fa-folder-o"></span>
+                            <a href="#menu3" data-toggle="collapse" class="nav-link text-dark"> Menu</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+        @*<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>*@
+        <div class="container">
+            <div id="menu" class="collapse" style="position:relative; top:-15px;">
+                <div class="list-group">
+                    <a href="#" class="list-group-item"><span class="fa fa-pencil"></span>&nbsp; Articles</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-newspaper-o"></span>&nbsp; Nouvelles</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-file"></span>&nbsp; Lettre d'information</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-commenting"></span>&nbsp; Commentaires</a>
+                </div>
+            </div>
+            <div id="menu2" class="collapse">
+                <div class="list-group">
+                    <a href="#" class="list-group-item"><span class="fa fa-pencil"></span>&nbsp; dsqdqd</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-newspaper-o"></span>&nbsp; sdfsfd</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-file"></span>&nbsp;sfdsf</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-commenting"></span>&nbsp; sfdsfsth</a>
+                </div>
+            </div>
+            <div id="menu3" class="collapse">
+                <div class="list-group">
+                    <a href="#" class="list-group-item"><span class="fa fa-pencil"></span>&nbsp; dsqdqd</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-newspaper-o"></span>&nbsp; sdfsfd</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-file"></span>&nbsp;sfdsf</a>
+                    <a href="#" class="list-group-item"><span class="fa fa-commenting"></span>&nbsp; sfdsfsth</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - GROUPE DIRECTSOFT - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+@*<div class="container">
+    <div class="card bg-warning">
+        <div class="card-body">
+            <h5 class="card-text">
+                <span id="icone" class="fa fa-folder-o"></span>
+                <a href="#menu" data-toggle="collapse"> Menu</a>
+            </h5>
+        </div>
+        <div id="menu" class="collapse">
+            <div class="list-group">
+                <a href="#" class="list-group-item"><span class="fa fa-pencil"></span>&nbsp; Articles</a>
+                <a href="#" class="list-group-item"><span class="fa fa-newspaper-o"></span>&nbsp; Nouvelles</a>
+                <a href="#" class="list-group-item"><span class="fa fa-file"></span>&nbsp; Lettre d'information</a>
+                <a href="#" class="list-group-item"><span class="fa fa-commenting"></span>&nbsp; Commentaires</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#menu')
+            .on("shown.bs.collapse", function () {
+                $('#icone').removeClass('fa-folder-o').addClass('fa-folder-open-o')
+            })
+            .on("hidden.bs.collapse", function () {
+                $('#icone').removeClass('fa-folder-open-o').addClass('fa-folder-o')
+            })
+    })
+</script>*@

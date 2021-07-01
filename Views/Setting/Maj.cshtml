@@ -1,0 +1,23 @@
+﻿@model DSIAppMaintenance.Models.Maj
+@{
+    ViewData["Title"] = "Update database";
+}
+
+<div id="contact-form row">
+    <form asp-controller="Setting" asp-action="Maj" asp-anti-forgery="true" method="post">
+        <div class="form-group">           
+            <div class="col-md-12 form-group">
+                <textarea asp-for="Script" class="form-control" placeholder="Script" type="text" >
+                </textarea>
+                <span asp-validation-for="Script" style="color: red"></span>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-primary" type="submit" id="submit">Envoyer</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}
