@@ -1,6 +1,5 @@
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\DSIAppMaintenance.exe
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\DSIAppMaintenance.deps.json
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\DSIAppMaintenance.runtimeconfig.json
@@ -9,7 +8,6 @@ C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agr
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\DSIAppMaintenance.pdb
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\DSIAppMaintenance.Views.dll
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\bin\Debug\netcoreapp3.1\DSIAppMaintenance.Views.pdb
-C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.csprojAssemblyReference.cache
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.AssemblyInfoInputs.cache
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.AssemblyInfo.cs
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.RazorAssemblyInfo.cache
@@ -511,3 +509,7 @@ C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\DSIAppMain
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.dll
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.pdb
 C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.genruntimeconfig.cache
+C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.csproj.AssemblyReference.cache
+C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\DSIAppMaintenance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\scopedcss\bundle\DSIAppMaintenance.styles.css
+C:\Users\direct11\Documents\Visual Studio 2017\website\AGRIX_EN_COURS\agrice_agromex\DSIAppMaintenance\obj\Debug\netcoreapp3.1\Razor\Views\Setting\GetKML.cshtml.g.cs

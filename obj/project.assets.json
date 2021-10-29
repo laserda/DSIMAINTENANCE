@@ -8723,20 +8723,20 @@
   },
   "packageFolders": {
     "C:\\Users\\direct11\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\direct11\\Documents\\Visual Studio 2017\\website\\AGRIX_EN_COURS\\DSIAppMaintenance\\DSIAppMaintenance.csproj",
+      "projectUniqueName": "C:\\Users\\direct11\\Documents\\Visual Studio 2017\\website\\AGRIX_EN_COURS\\agrice_agromex\\DSIAppMaintenance\\DSIAppMaintenance.csproj",
       "projectName": "DSIAppMaintenance",
-      "projectPath": "C:\\Users\\direct11\\Documents\\Visual Studio 2017\\website\\AGRIX_EN_COURS\\DSIAppMaintenance\\DSIAppMaintenance.csproj",
+      "projectPath": "C:\\Users\\direct11\\Documents\\Visual Studio 2017\\website\\AGRIX_EN_COURS\\agrice_agromex\\DSIAppMaintenance\\DSIAppMaintenance.csproj",
       "packagesPath": "C:\\Users\\direct11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\direct11\\Documents\\Visual Studio 2017\\website\\AGRIX_EN_COURS\\DSIAppMaintenance\\obj\\",
+      "outputPath": "C:\\Users\\direct11\\Documents\\Visual Studio 2017\\website\\AGRIX_EN_COURS\\agrice_agromex\\DSIAppMaintenance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
@@ -8753,6 +8753,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -8764,6 +8765,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Grpc.AspNetCore.Server": {
             "target": "Package",
@@ -8800,12 +8802,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8814,7 +8810,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

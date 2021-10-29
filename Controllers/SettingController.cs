@@ -32,6 +32,9 @@ namespace DSIAppMaintenance.Controllers
             return View();
         }
 
+      
+
+
         // POST: SettingController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -192,6 +195,32 @@ namespace DSIAppMaintenance.Controllers
             //}
         }
 
+        CodeForm codeForm = new CodeForm();
+        public ActionResult GetKML()
+        {
+
+            codeForm.txtNameReport = "Juste un text";
+            return View(codeForm);
+        }
+
+        [HttpPost]
+        public ActionResult GetKML(string txtNameTableAd, string txtNameReport, IFormFile textGetFile)
+        {
+            
+            //Kml kml_ = new Kml();
+            fileName = textGetFile.FileName.ToString();
+
+            codeForm.txtNameReport = "2 Juste un text";
+            codeForm.txtNameTableAd = "3 Juste un text";
+
+            //foreach (var test in kml_.KMLDecode(fileName))
+            //    codeForm.txtNameTableAd = test.ToString();
+
+           
+
+
+            return View(codeForm);
+        }
 
         [HttpPost]
         public ActionResult GenCodeEtatAuto(string txtNameTableAd, string txtNameReport, List<IFormFile> textGetFile)
